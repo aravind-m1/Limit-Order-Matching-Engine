@@ -1,8 +1,8 @@
-# MatchForge Architecture
+# Limit-Order-Matching-Engine Architecture
 
 ## Overview
 
-MatchForge is a price-time-priority limit order matching engine. The
+Limit-Order-Matching-Engine is a price-time-priority limit order matching engine. The
 design goal throughout: no locks on the hot matching path, deterministic
 recoverable state, and every component small enough to defend line-by-line
 in an interview.

@@ -25,7 +25,7 @@ import java.nio.file.Path;
 /** Smoke test for the NIO TCP gateway and the metrics HTTP endpoint. */
 public final class NetworkDemo {
     public static void main(String[] args) throws Exception {
-        Path walPath = Files.createTempFile("matchforge-net-wal", ".log");
+        Path walPath = Files.createTempFile("limit-order-matching-engine-net-wal", ".log");
         MarketDataPublisher publisher = new MarketDataPublisher();
         publisher.start();
         MetricsRegistry metrics = new MetricsRegistry();

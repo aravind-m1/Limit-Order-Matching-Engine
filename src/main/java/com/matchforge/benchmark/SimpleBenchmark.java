@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 public final class SimpleBenchmark {
 
     public static void main(String[] args) throws Exception {
-        Path walPath = Files.createTempFile("matchforge-bench-wal", ".log");
+        Path walPath = Files.createTempFile("limit-order-matching-engine-bench-wal", ".log");
         walPath.toFile().deleteOnExit();
 
         MarketDataPublisher publisher = new MarketDataPublisher();

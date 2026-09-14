@@ -13,7 +13,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.matchforge</groupId>
-  <artifactId>matchforge</artifactId>
+  <artifactId>limit-order-matching-engine</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 

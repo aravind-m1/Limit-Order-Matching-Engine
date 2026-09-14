@@ -1,6 +1,6 @@
-# MatchForge
+# Limit-Order-Matching-Engine
 
-MatchForge is a deterministic limit order matching engine implemented with
+Limit-Order-Matching-Engine is a deterministic limit order matching engine implemented with
 plain Java 21. It uses price-time priority, single-writer sequencing, one
 matching thread per symbol, write-ahead logging, snapshots, crash recovery,
 asynchronous market data, pre-trade risk checks, an NIO TCP gateway, and a

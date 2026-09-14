@@ -25,10 +25,10 @@ import java.util.concurrent.TimeUnit;
 public final class Demo {
 
     public static void main(String[] args) throws Exception {
-        Path walPath = Files.createTempFile("matchforge-demo-wal", ".log");
-        Path snapshotPath = Files.createTempFile("matchforge-demo-snapshot", ".bin");
+        Path walPath = Files.createTempFile("limit-order-matching-engine-demo-wal", ".log");
+        Path snapshotPath = Files.createTempFile("limit-order-matching-engine-demo-snapshot", ".bin");
 
-        System.out.println("=== MatchForge Demo ===");
+        System.out.println("=== Limit-Order-Matching-Engine Demo ===");
         System.out.println("WAL file: " + walPath);
         System.out.println();
 

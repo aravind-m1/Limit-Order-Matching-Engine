@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Compiles MatchForge with plain javac (no build tool required).
+# Compiles Limit-Order-Matching-Engine with plain javac (no build tool required).
 set -e
 cd "$(dirname "$0")"
 rm -rf out
